@@ -1,5 +1,5 @@
 console.log("Result:");
-var a = +prompt("Enter a value of A");
+var a = 10;
 console.log("The value of a is: " + a);
 console.log(".............................");
 
