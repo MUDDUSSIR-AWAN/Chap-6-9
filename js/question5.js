@@ -1,12 +1,12 @@
-var subject1 = prompt("Enter the name of First subject");
-var subject2 = prompt("Enter the name of Second subject");
-var subject3 = prompt("Enter the name of Third subject");
+var subject1 = prompt("Enter the name of First subject" , "English");
+var subject2 = prompt("Enter the name of Second subject" , "Math");
+var subject3 = prompt("Enter the name of Third subject" , "Urdu");
 
 const maxmarks = 100;
 
-var marks1 = parseFloat(+prompt("Enter the Marks of " + subject1)) ;
-var marks2 = parseFloat(+prompt("Enter the Marks of " + subject2)) ;
-var marks3 = parseFloat(+prompt("Enter the Marks of " + subject3)) ;
+var marks1 = parseFloat(+prompt("Enter the Marks of " + subject1 , "54")) ;
+var marks2 = parseFloat(+prompt("Enter the Marks of " + subject2 , "54")) ;
+var marks3 = parseFloat(+prompt("Enter the Marks of " + subject3 , "48")) ;
 
 
 
