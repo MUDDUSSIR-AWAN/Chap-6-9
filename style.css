@@ -31,7 +31,9 @@ a:hover {
 .all-question div:hover{
     background-color: rgb(16, 227, 174);
     border: solid 2px rgb(223, 15, 161);
-    transition: background-color 1s , border 1s;
+    height: 300px;
+    width: 270px;
+    transition: background-color 1s , border 1s , width .1s , height .1s;
 }
 
 .heading {
